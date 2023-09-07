@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:roam_rover/utils/themes.dart';
+import 'package:roam_rover/views/places_screen.dart';
 
 void main() {
   runApp(
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Roam Rover',
       theme: theme,
+      home: const PlacesScreen(),
     );
   }
 }
